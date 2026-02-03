@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[23271,["/barber-shop/_next/static/chunks/f57aacf44e955190.js","/barber-shop/_next/static/chunks/7773a09aecefb735.js"],"HeroSection"]
+3:I[1971,["/barber-shop/_next/static/chunks/f57aacf44e955190.js","/barber-shop/_next/static/chunks/7773a09aecefb735.js"],"ProjectGrid"]
+4:I[97367,["/barber-shop/_next/static/chunks/ff1a16fafef87110.js","/barber-shop/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+0:{"buildId":"q4fplb99qgEwmCyKEfe71","rsc":["$","$1","c",{"children":[["$","main",null,{"className":"min-h-screen bg-slate-50","children":[["$","$L2",null,{}],["$","$L3",null,{}]]}],[["$","script","script-0",{"src":"/barber-shop/_next/static/chunks/f57aacf44e955190.js","async":true}],["$","script","script-1",{"src":"/barber-shop/_next/static/chunks/7773a09aecefb735.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

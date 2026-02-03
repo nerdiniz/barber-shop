@@ -1,0 +1,50 @@
+/* Independent CSS for Iron Blade Layout */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+.iron-container {
+    background-color: #121212;
+    color: #d1d1d1;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.iron-font-heading {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.iron-accent {
+    color: #ff4500;
+    /* Industrial Orange/Rust */
+}
+
+.iron-bg-accent {
+    background-color: #ff4500;
+}
+
+.iron-border {
+    border: 2px solid #333;
+}
+
+.iron-btn {
+    background: #ff4500;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    clip-path: polygon(10% 0, 100% 0, 100% 90%, 90% 100%, 0 100%, 0 10%);
+    transition: all 0.2s ease;
+}
+
+.iron-btn:hover {
+    background: #ff5714;
+    transform: scale(1.02);
+}
+
+.iron-texture {
+    background-image: repeating-linear-gradient(45deg,
+            rgba(0, 0, 0, 0.05),
+            rgba(0, 0, 0, 0.05) 10px,
+            rgba(0, 0, 0, 0.1) 10px,
+            rgba(0, 0, 0, 0.1) 20px);
+}

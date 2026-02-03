@@ -1,0 +1,27 @@
+/* Independent CSS for Archive Barber Layout */
+.archive-container {
+    font-family: 'Times New Roman', Times, serif;
+    /* Using a distinct elegant font */
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+.archive-nav {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.archive-hero-text {
+    letter-spacing: -0.05em;
+    line-height: 0.9;
+}
+
+.archive-button {
+    background-color: #000;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.archive-button:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+}

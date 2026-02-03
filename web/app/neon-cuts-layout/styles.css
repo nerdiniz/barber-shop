@@ -1,0 +1,58 @@
+/* Independent CSS for Neon Cuts Layout */
+/* Fonts loaded via next/font in page.tsx */
+
+.neon-container {
+    background-color: #050505;
+    color: #e0e0e0;
+    font-family: var(--font-rajdhani), sans-serif;
+    overflow-x: hidden;
+}
+
+.neon-font-display {
+    font-family: var(--font-orbitron), sans-serif;
+}
+
+.neon-text-primary {
+    color: #00f3ff;
+    /* Cyan Neon */
+    text-shadow: 0 0 10px rgba(0, 243, 255, 0.7);
+}
+
+.neon-text-secondary {
+    color: #ff00ff;
+    /* Magenta Neon */
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.7);
+}
+
+.neon-border {
+    border: 1px solid rgba(0, 243, 255, 0.3);
+    box-shadow: 0 0 15px rgba(0, 243, 255, 0.1);
+}
+
+.neon-border-pink {
+    border: 1px solid rgba(255, 0, 255, 0.3);
+    box-shadow: 0 0 15px rgba(255, 0, 255, 0.1);
+}
+
+.neon-btn {
+    background: transparent;
+    color: #00f3ff;
+    border: 1px solid #00f3ff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.neon-btn:hover {
+    background: #00f3ff;
+    color: #000;
+    box-shadow: 0 0 20px #00f3ff;
+}
+
+.neon-card {
+    background: rgba(20, 20, 20, 0.95);
+    backdrop-filter: blur(10px);
+}
